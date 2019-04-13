@@ -84,8 +84,8 @@ def rl():
 
             update_env(S, episode, step_counter+1)
             step_counter += 1
-
-        return q_table
+    print(q_table)
+    return q_table
 
 if __name__ == "__main__":
     q_table = rl()
